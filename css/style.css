@@ -31,12 +31,140 @@
     align-items: center;
 }
 
-.container-one {
+#container-one {
     width: 100%;
     height: 88vh;
     background-image: url('../assets/screens/photo1.jpg');
     background-size: 102%;
     background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.text {
+    width: 90vw;
+    font-size: 1.6em;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px black;
+}
+
+#container-two {
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-image: url('../assets/screens/backnascar.jpg');
+    background-size: cover;
+}
+
+.title-two {
+    width: 50vw;
+    margin-left: 13em;
+    font-size: 1.8em;
+}
+
+.text-nasc {
+    width: 36vw;
+    font-size: 1.2em;
+    letter-spacing: 0.03em;
+}
+
+#container-tree {
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-image: url('../assets/screens/backeuro.jpg');
+    background-size: cover;
+}
+
+.title-tree {
+    width: 50vw;
+    margin-left: 13em;
+    font-size: 1.8em;
+}
+
+.text-eur {
+    width: 38vw;
+    font-size: 1.2em;
+    letter-spacing: 0.03em;
+}
+
+#container-four {
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-image: url('../assets/screens/backwar.jpg');
+    background-size: cover;
+    background-position: 50% 100%;
+}
+
+.title-four {
+    width: 50vw;
+    margin-left: 18em;
+    font-size: 1.8em;
+}
+
+.text-war {
+    width: 44vw;
+    font-size: 1.2em;
+    letter-spacing: 0.03em;
+}
+
+#container-five {
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-image: url('../assets/screens/backstar.jpg');
+    background-size: cover;
+}
+
+.title-five {
+    width: 50vw;
+    margin-left: 13em;
+    font-size: 1.8em;
+}
+
+.text-star {
+    width: 40vw;
+    font-size: 1.2em;
+    letter-spacing: 0.03em;
+}
+
+#container-six {
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-image: url('../assets/screens/backsn.png');
+    background-size: cover;
+    background-position: 50% 100%;
+}
+
+.title-six {
+    width: 50vw;
+    margin-left: 18em;
+    font-size: 1.8em;
+}
+
+.text-sno {
+    width: 28vw;
+    font-size: 1.2em;
+    letter-spacing: 0.03em;
 }
 
 .final-box {
