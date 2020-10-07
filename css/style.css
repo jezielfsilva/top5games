@@ -83,10 +83,10 @@ html {
 }
 
 .title-two {
-    width: 50vw;
+    width: 46vw;
     margin-left: 13em;
     font-size: 1.8em;
-    color: #f74803;
+    color: #ffffff;
     text-shadow: 1px 1px 1px black;
 }
 
@@ -95,7 +95,7 @@ html {
     font-size: 1.2em;
     letter-spacing: 0.03em;
     color: #f74803;
-    text-shadow: 1px 1px 1px #ffffff;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 #container-tree {
@@ -128,7 +128,7 @@ html {
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background-image: url('../assets/screens/backwar.jpg');
+    background-image: url('../assets/screens/backfall.png');
     background-size: cover;
     background-position: 50% 100%;
 }
